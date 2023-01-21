@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="head">To-Do List</h1>
+      <form id="studentForm">
+        <input type="text" placeholder="Student name" name="name" required />
+        <input type="text" placeholder="Deadline" name="date" required />
+        <select name="roll">
+          <option>primitive</option>
+          <option>high</option>
+          <option>medium</option>
+          <option>low</option>
+        </select>
+       
+        <button>Add Item</button>
+      </form>
+      <h2>Today's Todolist</h2>
+      <div class="students"></div>
+      <h2>Future Todolist</h2>
+         <div class="students1"></div>
+      <h2>Completed Todolist</h2>
+      <div class="students2"></div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
